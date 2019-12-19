@@ -18,6 +18,6 @@ class HitsResponse: Codable {
 class HitsList : Codable{
     let created_at  : String?
     let title       : String?
-    let isActive    : Bool?
+    var isActive    : Bool?
 }
 
