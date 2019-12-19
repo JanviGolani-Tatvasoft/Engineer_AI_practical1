@@ -9,6 +9,7 @@
 import Foundation
 
 class Util {
+    
     class func changeDateStringFormat(dateString: String) -> String {
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat =  "yyyy-MM-dd'T'HH:mm:ss.SSSZ"
@@ -21,5 +22,6 @@ class Util {
         let formattedDate = dateFormatter.string(from: date!)
         return formattedDate
     }
+    
 }
 

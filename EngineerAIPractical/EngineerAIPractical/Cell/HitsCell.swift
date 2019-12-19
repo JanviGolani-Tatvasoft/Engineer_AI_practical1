@@ -8,11 +8,11 @@
 
 import UIKit
 
-class HitsCell: UITableViewCell {
+final class HitsCell: UITableViewCell {
 
-    @IBOutlet private weak var labelTitle: UILabel!
-    @IBOutlet private weak var labelDate: UILabel!
-    @IBOutlet weak var displaySwitch: UISwitch!
+    @IBOutlet private weak var labelTitle : UILabel!
+    @IBOutlet private weak var labelDate  : UILabel!
+    @IBOutlet weak var displaySwitch      : UISwitch!
     
     var postHit : HitsList? {
         didSet {
@@ -23,11 +23,5 @@ class HitsCell: UITableViewCell {
             self.displaySwitch.isOn = postHit?.isActive ?? false 
         }
     }
-    override func awakeFromNib() {
-        super.awakeFromNib()
-    }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-    }
+    
 }

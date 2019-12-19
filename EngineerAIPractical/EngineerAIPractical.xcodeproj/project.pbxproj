@@ -17,6 +17,7 @@
 		050660C923AB796500529DA4 /* HitsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050660C823AB796500529DA4 /* HitsResponse.swift */; };
 		050660CE23AB80B800529DA4 /* HitsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050660CD23AB80B800529DA4 /* HitsCell.swift */; };
 		050660D223AB81E500529DA4 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050660D123AB81E500529DA4 /* Util.swift */; };
+		050660D423AB866600529DA4 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050660D323AB866600529DA4 /* Constant.swift */; };
 		08295960BFFD3F2CE718A016 /* Pods_EngineerAIPractical.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 725E4AE21BAE848D5BE4B29D /* Pods_EngineerAIPractical.framework */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +34,7 @@
 		050660C823AB796500529DA4 /* HitsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HitsResponse.swift; sourceTree = "<group>"; };
 		050660CD23AB80B800529DA4 /* HitsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HitsCell.swift; sourceTree = "<group>"; };
 		050660D123AB81E500529DA4 /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		050660D323AB866600529DA4 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		2754FC0EB9CE5A0CCB5F97D9 /* Pods-EngineerAIPractical.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EngineerAIPractical.debug.xcconfig"; path = "Target Support Files/Pods-EngineerAIPractical/Pods-EngineerAIPractical.debug.xcconfig"; sourceTree = "<group>"; };
 		2A2823578325632E69A71F01 /* Pods-EngineerAIPractical.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EngineerAIPractical.release.xcconfig"; path = "Target Support Files/Pods-EngineerAIPractical/Pods-EngineerAIPractical.release.xcconfig"; sourceTree = "<group>"; };
 		725E4AE21BAE848D5BE4B29D /* Pods_EngineerAIPractical.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EngineerAIPractical.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -98,6 +100,7 @@
 			children = (
 				050660C523AB78E900529DA4 /* Reachability.swift */,
 				050660D123AB81E500529DA4 /* Util.swift */,
+				050660D323AB866600529DA4 /* Constant.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -269,6 +272,7 @@
 				050660C323AB74AB00529DA4 /* RequestManager.swift in Sources */,
 				050660B223AB728B00529DA4 /* ViewController.swift in Sources */,
 				050660C923AB796500529DA4 /* HitsResponse.swift in Sources */,
+				050660D423AB866600529DA4 /* Constant.swift in Sources */,
 				050660CE23AB80B800529DA4 /* HitsCell.swift in Sources */,
 				050660D223AB81E500529DA4 /* Util.swift in Sources */,
 				050660C623AB78E900529DA4 /* Reachability.swift in Sources */,

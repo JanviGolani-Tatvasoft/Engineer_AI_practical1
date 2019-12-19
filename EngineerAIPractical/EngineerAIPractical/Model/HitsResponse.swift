@@ -13,11 +13,13 @@ class HitsResponse: Codable {
     let hitsPerPage  : Int?
     let nbPages      : Int?
     let hits         : [HitsList]?
+    
 }
 
-class HitsList : Codable{
+class HitsList : Codable {
     let created_at  : String?
     let title       : String?
     var isActive    : Bool?
+    
 }
 
