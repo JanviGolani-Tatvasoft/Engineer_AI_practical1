@@ -1,0 +1,24 @@
+PODS:
+  - Alamofire (4.9.1)
+  - SVProgressHUD (2.2.5)
+  - UIScrollView-InfiniteScroll (1.1.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - SVProgressHUD
+  - UIScrollView-InfiniteScroll
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - SVProgressHUD
+    - UIScrollView-InfiniteScroll
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  UIScrollView-InfiniteScroll: 3ef456bcbe759c19f510a383cff96e6647c98c98
+
+PODFILE CHECKSUM: 5fb97dbf1b89e0bbb9cf7aa94d2143efa3f1320d
+
+COCOAPODS: 1.8.4

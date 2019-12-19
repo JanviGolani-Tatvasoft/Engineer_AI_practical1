@@ -1,0 +1,6 @@
+framework module Pods_EngineerAIPractical {
+  umbrella header "Pods-EngineerAIPractical-umbrella.h"
+
+  export *
+  module * { export * }
+}
